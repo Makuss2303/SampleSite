@@ -1,19 +1,9 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+## Hướng dẫn chạy được web
+1. Clone về bằng lệnh 
+### `git clone https://github.com/Makuss2303/SampleSite.git`
+2. Vào thư mục vừa clone về được (/SampleSite), chạy lệnh để tải các node_modules cần thiết
+### `npm install`
+3. Sau khi cài đặt xong chạy web bằng lệnh
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-## Hướng dẫn chạy được web
-Clone về bằng lệnh 
-### `git clone https://github.com/Makuss2303/SampleSite.git`
+Web App đã hạy, lên [http://localhost:3000](http://localhost:3000) để xem nội dung.

@@ -1,0 +1,74 @@
+.ourServices{
+    margin-top: 5%;
+}
+
+
+.customizeImg{
+    display: flex;
+    justify-content: center;
+}
+
+.customizeText{
+    font-size:14px;
+}
+
+.customizeTitle{
+    color: #818E8E;
+    font-weight: bold;
+}
+
+.customizeButtom{
+    position: relative;
+    top: -6%;
+    left: 15%;
+    box-shadow: rgba(173, 31, 45, 1) 0px 4px 0px 0px;
+}
+
+.buttonColor{
+    background-color: #76CACA !important;
+    border: #47b8b8 !important;
+    box-shadow: rgba(64, 165, 165, 1) 0px 4px 0px 0px;
+}
+
+.mb-3{
+    margin-top: 2rem !important;
+}
+
+.p-5{
+    min-height: 25rem;
+}
+
+.spaceServices{
+    background-color: white;;
+    padding-top: 0 !important;
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 0px 0px;
+    min-height: 48px;
+}
+
+.spaceService2 {
+    background-color: #F8F8F8 !important;
+}
+
+.spaceService3 {
+    background-color: #F8F8F8 !important;
+}
+
+.spaceService4 {
+    background-color: #F8F8F8 !important;
+}
+
+.buttonText{
+    text-align: center;
+}
+
+.btn-xl{
+    /* padding: 10px 20px !important;
+    border-radius: 10px !important; */
+    width:70% !important;
+    height: 12% !important;
+}
+
+/* @media screen and (max-width: 900px) {
+    spaceServices     
+} */

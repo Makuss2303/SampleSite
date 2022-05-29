@@ -1,0 +1,110 @@
+.slick-prev{
+  left: 0 !important;
+  z-index: 1000 !important;
+  height: 50px !important;
+  width: 40px !important;
+  background: #e8645a !important;
+}
+
+.slick-next{
+  right: 0 !important;
+  z-index: 1000 !important;
+  height: 50px !important;
+  width: 40px !important;
+  background: #e8645a !important;
+}
+
+.slick-prev::before, .slick-next::before {
+  font-family: FontAwesome !important;
+}
+.slick-prev::before {
+  content: "\f100" !important;
+}
+.slick-next::before {
+  content: "\f101" !important;
+}
+
+.imgCustomize{
+  width: 100%;
+  height: 100%;
+}
+
+.slideCustomize{
+  padding: 0 !important;
+}
+
+.textPotition{
+  position: relative;
+}
+
+.textImgFirst{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.2rem;
+  font-family: Segoe UI;
+  font-weight:500;
+  border-radius: 6px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  background-color: #e8645a;
+  padding: 0.1% 5% 0.1% 5%;
+}
+
+.textImgSecond{
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.3% 2% 0.3% 2%;
+}
+
+
+.textColorBgr{
+  color: #e8645a;
+}
+
+/* custon on phone */
+@media screen and (max-width: 900px){
+  .imgCustomize{
+    width: auto;
+    height: auto;
+  }
+
+  .textImgFirst{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.3rem;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    background-color: #e8645a;
+  }
+  
+  .textImgSecond{
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 0.8rem;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    text-align: center;
+  }
+}

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Container } from 'react-bootstrap';
+import Row from 'react-bootstrap/Row'
+import Navbar from './components/Navbar/Navbar';
+import Slideshow from './components/Slideshow/Slideshow';
+import IntroductionContent from './components/IntroductionContent/IntroductionContent';
+import OurServicesContent from './components/ourServicesContent/ourServicesContent';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container fluid>
+        <Row>
+          <Navbar />
+          <Slideshow />
+        </Row>
+      </Container>
+
+        <Container className='content' fluid>
+          <Row>
+            <IntroductionContent />
+          </Row>
+          <Row>
+            <OurServicesContent />
+          </Row>
+        </Container>
+
+        <Container className='footer' fluid>
+            <Footer />
+        </Container>
     </div>
   );
 }

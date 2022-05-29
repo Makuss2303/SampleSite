@@ -6,7 +6,7 @@
 3. Sau khi cài đặt xong chạy web bằng lệnh
 ### `npm start`
 
-Web App đã hạy, lên [http://localhost:3000](http://localhost:3000) để xem nội dung.
+Web App đã chạy, lên [http://localhost:3000](http://localhost:3000) để xem nội dung.
 
 ## Web đã được deploy trên 
 https://sample-site-git-main-makuss2303.vercel.app/

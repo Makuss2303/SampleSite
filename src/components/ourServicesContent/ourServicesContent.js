@@ -25,11 +25,7 @@ class OurServicesContent extends Component {
                         )
                     })}
                 </Row>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                <br /><br /><br /><br /><br />
             </div>
         )
     }

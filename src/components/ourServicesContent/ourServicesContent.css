@@ -44,6 +44,7 @@
     transition: .5s;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 0px 0px;
     min-height: 48px;
+    border-radius: 6px;
 }
 
 .spaceService2 {
